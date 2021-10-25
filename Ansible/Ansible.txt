@@ -1,0 +1,178 @@
+RedAdmin@JumpBoxProvisioner:~$ history
+    1  sudo apt-get update
+    2  sudo apt install docker.io
+    3  sudo systemctl status docker
+    4  sudo docker pull cyberxsecurity/ubuntu:bionic
+    5  sudo docker run -ti cyberxsecurity/ubuntu:bionic bash
+    6  sudo apt install docker.io
+    7  sudo systemctl status docker
+    8  sudo docker pull cyberxsecurity/ansible
+    9  sudo docker run -ti cyberxsecurity/ansible:latest bash
+   10  sudo docker container list -a
+   11  docker run -it cyberxsecurity/ansible /bin/bash
+   12  ssh-keygen
+   13  ls .ssh/
+   14  cat .ssh/id_rsa.pub
+   15  docker start flamboyant_cannon
+   16  sudo docker attach flamboyant_cannon
+   17  sudo docker start hardcore_brown
+   18  sudo docker start flamboyant_cannon
+   19  sudo docker attach flamboyant_cannon
+   20  sudo su
+   21  sudo docker start flamboyant_cannon
+   22  sudo docker attach flamboyant_cannon
+   23  sudo docker start flamboyant_cannon
+   24  sudo docker attach flamboyant_cannon
+   25  sudo docker start flamboyant_cannon
+   26  sudo docker attach flamboyant_cannon
+   27  sudo su
+   28  history
+   29  docker start flamboyant_cannon
+   30  sudo docker attach flamboyant_cannon
+   31  cd /etc/
+   32  ls
+   33  cd ansible
+   34  cd files
+   35  cd ../
+   36  ssh sysadmin@40.83.198.182
+   37  history
+   38  cd /etc/files
+   39  cd /etc
+   40  ls
+   41  cd ansible
+   42  cd ../
+   43  cd /etc/ansible
+   44  history
+   45  docker start flamboyant_cannon
+   46  sudo docker attach flamboyant_cannon
+   47  docker ps
+   48  sudo docker ps
+   49  docker start flamboyant_cannon
+   50  sudo docker start flamboyant_cannon
+   51  sudo docker attach flamboyant_cannon
+  2  ssh-keygen
+    3  cat /root/.ssh/id_rsa.pub
+    4  clear
+    5  ssh sysadmin@10.0.0.5
+    6  ssh sysadmin@10.0.0.6
+    7  cd /etc/ansible
+    8  ls
+    9  ls -la
+   10  nano /etc/ansible/ansible.cfg
+   11  nano hosts
+   12  ansible webservers -m ping
+
+  
+
+  509  cd Documents
+  510  ls
+  511  cd docker_files
+  512  ls
+  513  docker-compose -d
+  514  curl https://posthere.io/0d05-43e8-9488
+  515  curl https: --head //posthere.io/0d05-43e8-9488
+  516  curl --head http://posthere.io
+  517  curl -X POST http://posthere.io?query=dishsoap
+  518  curl https:curl -X POST //posthere.io/0d05-43e8-9488?query=dishsoap
+  519  cd..//
+  520  cd..\\
+  521  cd..//
+  522  Curl --header httpbin.org/anything
+  523  curl https://httpbin.org/anything
+  524  curl https://httpbin.org/ --head
+  525  curl -X POST "https://httpbin.org/anything" -d '{"Developer": "Andrew"}'
+  526  curl -X POST "https://httpbin.org/anything?EmployeeDirectory=frontend"
+  527  curl -X POST "https://httpbin.org/anything" -d '{"Developer": "Andrew"}' -H "Content-Type: application/json"
+  528  clear
+  529  docker ps
+  530  localhost:8080
+  531  ping 8.8.8.8
+  532  history
+  533  docker-compose -d
+  534  docker ps
+  535  2601:440:8400:d940:a1a8:8eda:1cd8:a521:8080
+  536  docker ps
+  537  2601:440:8400:d940:a1a8:8eda:1cd8:a521:8080
+  538  docker ps
+  539  ~
+  540  psw
+  541  ped
+  542  pwd
+  543  cd ../
+  544  docker-compose -d
+  545  docker ps
+  546  cd /Documents/files
+  547  cd Documents
+  548  cd files
+  549  cd docker_files
+  550  docker compose -d
+  551  docker-compose -d
+  552  docker-compose down
+  553  docker ps
+  554  docker-compose up -d
+  555  docker ps
+  556  localhost:8080
+  557  docker-compose down
+  558  cd ../
+  559  history
+  560  cd /Documents
+  561  history
+  562  cd Documents
+  563  ls
+  564  cd web-vulns
+  565  docker ps
+  566  docker-compose up -d
+  567  docker ps
+  568  docker exec -it bwapp bash
+  569  cd ../../../
+  570  cd ../
+  571  sudo burpsuite
+  572  cd Documents
+  573  history
+sysadmin@UbuntuDesktop:/$ !562
+cd Documents
+bash: cd: Documents: No such file or directory
+sysadmin@UbuntuDesktop:/$ !547
+cd Documents
+bash: cd: Documents: No such file or directory
+sysadmin@UbuntuDesktop:/$ cd ~
+sysadmin@UbuntuDesktop:~$ cd Documents
+sysadmin@UbuntuDesktop:~/Documents$ ls
+20190505epscript.tar  20190505epscript.txt  docker_files  epscript  missingfiles  setup_scripts  web-vulns
+sysadmin@UbuntuDesktop:~/Documents$ cd web-vulns
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ docker exec -it bwapp bash
+root@f1db82ea752f:/# exit
+exit
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ docker-compose up -d
+mutillidae is up-to-date
+dvwa is up-to-date
+bwapp is up-to-date
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ cd ..//
+sysadmin@UbuntuDesktop:~/Documents$ cd ..//
+sysadmin@UbuntuDesktop:~$ history
+sysadmin@UbuntuDesktop:~$ !547
+cd Documents
+sysadmin@UbuntuDesktop:~/Documents$ ls
+20190505epscript.tar  docker_files  missingfiles   web-vulns
+20190505epscript.txt  epscript      setup_scripts
+sysadmin@UbuntuDesktop:~/Documents$ cd web-vulns
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ docker ps
+CONTAINER ID   IMAGE            COMMAND                  CREATED      STATUS              PORTS      NAMES
+a6f27d12e104   mariadb:10.5.1   "docker-entrypoint.s…"   4 days ago   Up About a minute   3306/tcp   demo-db
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ docker-compose up -d
+Starting bwapp      ... done
+Starting mutillidae ... done
+Starting dvwa       ... done
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ docker ps
+CONTAINER ID   IMAGE                       COMMAND                  CREATED      STATUS          PORTS                                                                                           NAMES
+8da09097ac2d   cyberxsecurity/dvwa         "/main.sh"               2 days ago   Up 16 seconds   0.0.0.0:10000->80/tcp, :::10000->80/tcp                                                         dvwa
+32ced3f687cb   cyberxsecurity/mutillidae   "bash -c 'service my…"   2 days ago   Up 15 seconds   443/tcp, 0.0.0.0:10002->80/tcp, :::10002->80/tcp, 0.0.0.0:20002->3306/tcp, :::20002->3306/tcp   mutillidae
+f1db82ea752f   cyberxsecurity/bwapp        "/run.sh"                2 days ago   Up 16 seconds   3306/tcp, 0.0.0.0:10011->80/tcp, :::10011->80/tcp                                               bwapp
+a6f27d12e104   mariadb:10.5.1              "docker-entrypoint.s…"   4 days ago   Up 2 minutes    3306/tcp                                                                                        demo-db
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ docker exec -it bwapp bash
+root@f1db82ea752f:/# cd /var/www 
+root@f1db82ea752f:/var/www# 
+root@f1db82ea752f:/var/www# ls
+html
+root@f1db82ea752f:/var/www# cd html
+root@f1db82ea752f:/var/www/html# ls

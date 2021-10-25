@@ -1,0 +1,1859 @@
+    2  clear
+    3  sudo -i
+    4  sudo apt install linux-headers-$(uname -r) build-essential dkms
+    5  clear
+    6  ls /etc/ssh/
+    7  sudo su
+    8  exit
+    9  ls ~/.ssh/
+   10  cat ~/.ssh/authorized_keys
+   11  clear
+   12  exit
+   13  cat .ssh/authorized_keys 
+   14  exit
+   15  ifconfig
+   16  sudo su
+   17  sudo su
+   18  exit
+   19  tail /etc/passwd
+   20  ls /home
+   21  sudo su
+   22  exit
+   23  /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   24  sudo sysadmin
+   25  sudo
+   26  /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   27  sudo /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   28  cd /etc/shadow
+   29  cd etc/shadow
+   30  sudo ls -l
+   31  sudo il service -all
+   32  sudo systemctl -t services --all
+   33  sudo systemctl -t service --all
+   34  sudo systemctl stop vsftp.service
+   35  sudo systemctl stop vsftpd.service
+   36  sudo systemctl status vsftpd.service
+   37  man grep
+   38  clear
+   39  cd /Document
+   40  cd /home/sysadmin
+   41  ls
+   42  cd /Documents
+   43  ~/Documents/epscript/
+   44  cd ~/Documents/epscript/
+   45  ls -l epscript
+   46  cd ~/Documents/epscript/
+   47  ls
+   48  ls -l epscript
+   49  ls -l epscriptcd ../
+   50  cd ../
+   51  ls -l
+   52  ls -l epscript
+   53  ls -l epscript/doctotrs
+   54  ls -l epscript/doctotrs/
+   55  ls -l epscript/doctors/
+   56  ls -l epscript/patients/
+   57  ls -l epscript/treatments/
+   58  Command: tar cvvWf 20190505epscript.tar epscript/ > 20190505epscript.txt
+   59  ls
+   60  cat 20190505epscript.txt
+   61  cd /03-student/day1
+
+   62  cd Lucky_Duck_Investigations/
+   63  ls
+   64  cd Roulette_Loss_Investigation
+   65  ls
+   66  cd Player_Analysis
+   67  ls
+   68  grep - * data
+   69  cat Roulette_Losses
+   70  man wc
+   71  ls
+   72  cat Notes_Player_Analysis
+   73  cat Roulette_Losses
+   74  wc -l Roulette_Losses > Notes_Player_Analysis
+   75  ls Notes_Player_Analysis
+   76  wc -l Roulette_Losses
+   77  ls Roulette_Losses
+   78  cat Roulette_Losses | wc -l
+   79  cat Roulette_Losses | wc -l > Notes_Player_Analysis
+   80  cat Notes_Player_Analysis
+   81  man wc
+   82  cat Roulette_Losses | wc -m Mylie Schmidt >> Notes_Player_Analysis
+   83  awk -F ' {print $1 $2} ' Roulette_Losses
+   84  awk -F ' {print $1,$2} ' Roulette_Losses
+   85  awk  ' {print $1,$2} ' Roulette_Losses
+   86  awk  ' {print $1,$2,$3} ' Roulette_Losses
+   87  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+   88  cat Notes_Player_Analysis
+   89  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+   90  cd /03-student/
+   91  cd /03-student/day1/Lucky_Duck_Investigations/
+   92  cd Roulette_Loss_Investigation
+   93  ls
+   94  cat Roulette_Losses
+   95  cd Player_Analysis
+   96  ls
+   97  cat Roulette_Losses
+   98  cat Notes_Player_Analysis
+   99  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+  100  wc -w *Mylie* Roulette_Losses
+  101  wc -w Mylie* Roulette_Losses
+  102  cd Dealer_Analysis
+  103  cd ../
+  104  cd Dealer_Analysis
+  105  ls
+  106  cat 0310_Dealer_schedule 0312_Dealer_schedule  0315_Dealer_schedule
+  107  ls
+  108  cd ../
+  109  ls
+  110  cat Roulette_Losses
+  111  history
+  112  ls
+  113  cd Player_Analysis
+  114  ls
+  115  cat Roulette_Losses
+  116  cd Player_Analysis
+  117  cd ../
+  118  cd Dealer_Analysis
+  119  ls
+  120  cat Notes_Dealer_Analysis
+  121  cat 0310_Dealer_schedule
+  122  cat 0312_Dealer_schedule
+  123  cd
+  124  /03-student/day1/Lucky_Duck_Investigations
+  125  cd /03-student/day1/Lucky_Duck_Investigations
+  126  ls
+  127  cd Roulette_Loss_Investigation/
+  128  ls
+  129  cd Player_Analysis/
+  130  ls
+  131  cat 0310_win_loss_player_data 
+  132  cd ../
+  133  cd Dealer_Analysis/
+  134  ls
+  135  cat 0310_Dealer_schedule
+  136  cat Notes_Dealer_Analysis
+  137  ls -la
+  138  cat 0315_Dealer_schedule
+  139  cd ../
+  140  cd Player_Analysis/
+  141  ls
+  142  ls -la
+  143  cat Roulette_Losses
+  144  grep "Mylie Schmidt"
+  145  grep "Mylie Schmidt" Roulette_Losses 
+  146  grep "Mylie Schmidt" Roulette_Losses | wc -l
+  147  cd
+  148  crontab -l
+  149  crontab -e
+  150  cd /usr/share
+  151  mkdir patients
+  152  sudo mkdir patients
+  153  ls
+  154  clear
+  155  cd ~/Downloads
+  156  ls
+  157  cd /Downloads
+  158  cd ~/Downloads
+  159  ls
+  160  ls -l
+  161  cd ~/Downloadscd
+  162  cd
+  163  mkdir Security_scripts
+  164  cd Security_scripts/
+  165  nano backup.sh
+  166  cd
+  167  /etc
+  168  cd /etc
+  169  cd
+  170  cd /03-student/day1
+  171  cd Lucky_Duck_Investigations/
+  172  cd Roulette_Loss_Investigation
+  173  ls
+  174  cd Dealer_Analysis/
+  175  ls
+  176  cat 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule
+  177  awk '{print $1,$2,$7,$8}' | grep 
+  178  awk '{print $1,$2,$7,$8}' | >> Dealers_working_during_losses
+  179  sudo apt install terminator
+  180  clear
+  181  sudo apt install logrotate
+  182  terminator
+  183  sudo apt install auditd -y
+  184  systemctl status auditd
+  185  sudo systemctl enable auditd
+  186  cd /03-student/day1
+  187  cd Lucky_Duck_Investigations/
+  188  cd Roulette_Loss_Investigation
+  189  ls
+  190  cd Dealer_Analysis
+  191  ls
+  192  Dealers_working_during_losses
+  193  cat Dealers_working_during_losses
+  194  cat 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule
+  195  awk '{print $1,$2,$7,$8}' 
+  196  awk -F '{print $1,$2,$7,$8}' | >> Dealers_working_during_losses
+  197  cat Dealers_working_during_losses
+  198  awk -F '{print $1,$2,$7,$8}'0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  199  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  200  cat Dealers_working_during_losses
+  201  awk '{print $1,$2,$7,$8}' 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  202  Dealers_working_during_losses
+  203  cat Dealers_working_during_losses
+  204  awk '{print $1,$2,$7,$8}' 0310_Dealer_schedule | >> Dealers_working_during_losses
+  205  cat Dealers_working_during_losses
+  206  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule | >> Dealers_working_during_losses
+  207  cat Dealers_working_during_losses
+  208  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule 
+  209  awk -F" " '{print $1,$2,$7,$8}' 0310_Dealer_schedule 
+  210  cat 0310_Dealer_schedule 
+  211  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule 
+  212  awk -F" " '{print $1,$2,$7,$8}' 0315_Dealer_schedule 
+  213  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule | >> Dealers_working_during_losses 
+  214  cat Dealers_working_during_losses 
+  215  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule >> Dealers_working_during_losses 
+  216  cat Dea
+  217  cat Dealers_working_during_losses 
+  218  awk -F" " '{print $1,$2,$7,$8}' 0315_Dealer_schedule >> Dealers_working_during_losses 
+  219  cat Dealers_working_during_losses 
+  220  more Dealers_working_during_losses 
+  221  awk -F" " '{print $3,$4}' Dealers_working_during_losses
+  222  awk -F" " '{print $3,$4}' Dealers_working_during_losses > Notes_Dealer_Analysis
+  223  cat Notes_Dealer_Analysis 
+  224  wc -l Notes_Dealer_Analysis 
+  225  cd ../
+  226  ls
+  227  cd Player_Dealer_Correlation/
+  228  ls
+  229  nano Notes_Player_Dealer_Correlation
+  230  cd ../
+  231  ls
+  232  cd Player_Analysis
+  233  ls
+  234  cat Notes_Player_Analysis
+  235  cat 0312_win_loss_player_data  0315_win_loss_player_data
+  236  cd Player_Dealer_Correlation/
+  237  cd ../
+  238  ls
+  239  cd 
+  240  cd /03-student/day1/Lucky_Duck_Investigations/Roulette_Loss_Investigation$
+  241  cd /03-student/day1/Lucky_Duck_Investigations/
+  242  cd Roulette_Loss_Investigation
+  243  ls
+  244  cd Player_Dealer_Correlation
+  245  ls
+  246  nano Notes_Player_Dealer_Correlation
+  247  cat Notes_Player_Dealer_Correlation
+  248  cd ../
+  249  cd Dealer_Analysis/
+  250  ls
+  251  nano roulette_dealer_finder_by_time_.sh
+  252  ls
+  253  cat roulette_dealer_finder_by_time_.sh
+  254  chmod +x roulette_dealer_finder_by_time_.sh
+  255  ls
+  256  ls roulette_dealer_finder_by_time_.sh
+  257  ./roulette_dealer_finder_by_time_.sh
+  258  cd
+  259  sudo journalctrl _UID
+  260  journalctrl --list-boots
+  261  sudo apt-get instal terminator
+  262  sudo apt install terminator
+  263  clear
+  264  journalctrl --list-boots
+  265  journalctl --list-boots
+  266  sudo nano/etc/systemd/journald.conf
+  267  sudo nano/etc /systemd/journald.conf
+  268  sudo nano /etc/systemd/journald.conf
+  269  sudo apt install TarDocs.tar
+  270  cd
+  271  ls
+  272  ls -l
+  273  clear
+  274  cd /etc/shadow
+  275  sudo /etc/shadow/
+  276  cd /etc/
+  277  ls
+  278  clear
+  279  sudo cd /etc/shadow
+  280  sudo /etc/shadow
+  281  sudo /etc/
+  282  cat shadow
+  283  sudo cat shadow
+  284  clear
+  285  ls -l shadow
+  286  ls -l gshadow
+  287  ls -l group
+  288  ls -l passwd
+  289  cd
+  290  sudo adduser sam
+  291  sudo adduser amy
+  292  sudo adduser joe
+  293  sudo adduser sara
+  294  sudo adduser admin
+  295  usermod -aG sudo admin
+  296  sudo usermod -aG sudo admin
+  297  groups admin
+  298  sudo addgroup engineers
+  299  tail /etc/groups
+  300  tail /etc/group
+  301  sudo mkdir -p /home/engineers/sharedFolder
+  302  sudo chgrp -R engineers /home/engineers/sharedFolder
+  303  sudo chmod -R 2775 /home/engineers/sharedFolder
+  304  tail /etc/group
+  305  ls -l
+  306  open the /etc/group file
+  307  sudo /etc/group file
+  308  sudo /etc/group
+  309  cat /etc/group
+  310  sudo usermod -a -G engineers sam, joe, amy, sara
+  311  sudo usermod -a engineers sam, joe, amy, sara
+  312  sudo usermod -a engineers sam
+  313  sudo usermod -a engineers joe
+  314  sudo usermod -a engineers amy
+  315  sudo usermod -a engineers sara
+  316  sudo -aG engineers sam, joe, amy, sara
+  317  groups sam
+  318  sudo -aG engineers sam
+  319  groups sam
+  320  sudo usermod -aG engineers sam
+  321  sudo usermod -aG engineers joe
+  322  sudo usermod -aG engineers amy
+  323  sudo usermod -aG engineers sara
+  324  cat /etc/group
+  325  sudo apt install Lynis
+  326  sudo apt install lynis
+  327  lynis show commands
+  328  sudo lynis show commands
+  329  lynis audit
+  330  sudo lynis audit
+  331  sudo lynis audit system
+  332  sudo /var/log/lynis-report.dat
+  333  sudo cat /var/log/lynis-report.dat
+  334  sudo cat /etc/shadow
+  335  cybersecurity
+  336  sudo cat /etc/shadow
+  337  history
+  338  sudo /etc/
+  339  sudo /etc
+  340  sudo /etc/shadow
+  341  sudo /etc/
+  342  sudo cd /etc/
+  343  cd
+  344  pwd
+  345  cd /etc/
+  346  cat shadow
+  347  sudo cat shadow
+  348  sudo ls -l shadow
+  349  sudo ls -l gshadow
+  350  sudo ls -l group
+  351  sudo ls -l passwd
+  352  clear
+  353  cd
+  354  mkdir ~/research && cp -r /var/log/* /etc/passwd /etc/shadow /etc/hosts ~/research
+  355  sudo su
+  356  nano sys_info.sh
+  357  ~/research
+  358  ls
+  359  /Projects
+  360  cd /Projects
+  361  cd ~/Projects
+  362  cd
+  363  pwd
+  364  mkdir Projects
+  365  cd Projects
+  366  Tar.Docs.tar
+  367  cd
+  368  ~/Projects
+  369  cd Projects
+  370  curl https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/uofm-virt-cyber-pt-06-2021-u-lol/-/tree/master/05-Archiving-and-Logging-Data/homework#:~:text=you%20get%20started%3A-,TarDocs.tar,-Instructions
+  371  ls
+  372  curl https://drive.google.com/a/2tor.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view?usp=sharing
+  373  ls
+  374  curl https://drive.google.com/a/2tor.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view?usp=sharing --output TarDocs.tar
+  375  ls
+  376  gunzip TarDocs.tar
+  377  cat TarDocs.tar
+  378  ls
+  379  $ tar -xf TarDocs.tar -C /opt/files
+  380  ls
+  381  cls
+  382  clear
+  383  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895m
+  384  ls
+  385  delete TarDocs.tar
+  386  remove TarDocs.tar
+  387  cat TarDocs.tar
+  388  grep java
+  389  clear
+  390  ls
+  391  rm TarDocs.tar
+  392  ls
+  393  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895m
+  394  cat 21428
+  395  ls
+  396  clear
+  397  wget https://drive.google.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view
+  398  ls
+  399  cat view
+  400  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895mclear
+  401  clear
+  402  ls
+  403  cat TarDocs.tar
+  404  clear
+  405  ls 
+  406  ls TarDocs.tar
+  407  tar -xf TarDocs.tar -C /opt/files
+  408  tar -xf TarDocs.tar 
+  409  ls
+  410  cat TarDocs
+  411  cd TarDocs
+  412  ls
+  413  cd Documents
+  414  ls
+  415  ls -l ~/Projects/TarDocs/Documents/
+  416  cd
+  417  tar cvf Javaless_Doc.tar TarDocs/ --exclude=/TarDocs/Documents/Java 
+  418  ~/Projects/Documents
+  419  ~/Projects
+  420  Cd Projects
+  421  ~/Projects/
+  422  Cd Projects/
+  423  ~/Projects
+  424  clear
+  425  cd
+  426  .\
+  427  ~/Project
+  428  ~\Projects
+  429  cd ~\Projects
+  430  ls
+  431  cd Projects
+  432  tar cvf Javaless_Doc.tar TarDocs/ --exclude=/TarDocs/Documents/Java 
+  433  ls
+  434  tar tvvf Javaless_Doc.tar | grep java
+  435  tar tvvf Javaless_Doc.tar | grep Java
+  436  sudo tar czf backup_tar.gz snapshot.file /var/log
+  437  sudo tar cvvwf logs_backup.tar.gz --increamental=snapshot.file /var/log
+  438  sudo tar cvvwf logs_backup.tar.gz --increamental=snapshot.snar /var/log
+  439  sudo tar cvvwf logs_backup.tar.gz --increamental=logs_backup.snar /var/log
+  440  sudo nano /etc/hosts
+  441  systemctl status cron
+  442  crontab -l
+  443  crontab -e
+  444  sudo ls /var/spool/cron/crontabs
+  445  sudo tail /var/spool/cron/crontabs
+  446  sudo tail /var/spool/cron/crontabs/instructor
+  447  crontab -e
+  448  sudo tar --listed-incremental=snapshot.file -cvzf logs_backup.tar.gz /var/log
+  449  cd ~/
+  450  nano system.sh
+  451  sudo mkdir -p ~/backups/{freemem,diskuse,openlist,freedisk}
+  452  ls
+  453  cd backups
+  454  ls
+  455  cd ~/
+  456  nano system.sh
+  457  sudo chmod +x system.sh
+  458  cat ~/backups/freeman/free_mem.txt
+  459  sudo./system.sh
+  460  sudo ./system.sh
+  461  cd backups
+  462  ls
+  463  cd diskuse
+  464  ls
+  465  nano system.sh
+  466  cd/
+  467  cd
+  468  sudo cp system.sh /etc/cron.weekly
+  469  nano /etc/logrotate.conf
+  470  ip a
+  471  sudo usermod -a -G wireshark sysadmin
+  472  sudo apt install fping
+  473  fping
+  474  clear
+  475  fping -c 6.8.8.8 8.8.4.4
+  476  ping 192.0.43.10
+  477  ping 107.191.96.26
+  478  ping 41.19.96.26
+  479  fping -c 41.19.96.234 107.191.101.180 23.226.229.4
+  480  ping 154.226.18.4
+  481  ping 176.56.238.3
+  482  ping 176.56.238.99
+  483  fping -c 107.191.96.26 107.191.96.32
+  484  fping -g 107.191.96.26 107.191.96.32
+  485  nslookup -typeA splunk.com
+  486  nslookup -typeNS splunk.com
+  487  nslookup -typeMX splunk.com
+  488  fping 15.199.95.91/28
+  489  fping 15.199.95.91
+  490  15.199.94.91/28
+  491  15.199.94.91
+  492  fping 15.199.94.91
+  493  12.205.151.91/24
+  494  12.205.151.91
+  495  fping 12.205.151.91
+  496  echo "qMOIvwEGXzvkMvRE2bNbg==" > riddle3.enc
+  497  cat riddle3.enc
+  498  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A47C7BEB67081A64AD9A15147906E8E856 -iv 1907C5E255F7FC9A6B47B0E789847AED
+  499  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A478C7BEB67081A64AD9A15147906E8E8564
+  500  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A478C7BEB67081A64AD9A15147906E8E8564 -iv 1907C5E255F7FC9A6B47B0E789847AED
+  501  steghide extract -sf mary-lamb.jpg
+  502  cd /Downloads
+  503  cd /Download
+  504  cd downloads
+  505  cd download
+  506  ~
+  507  cd download
+  508  steghide extract -sf mary-lamb.jpg
+  509  cd Documents
+  510  ls
+  511  cd docker_files
+  512  ls
+  513  docker-compose -d
+  514  curl https://posthere.io/0d05-43e8-9488
+  515  curl https: --head //posthere.io/0d05-43e8-9488
+  516  curl --head http://posthere.io
+  517  curl -X POST http://posthere.io?query=dishsoap
+  518  curl https:curl -X POST //posthere.io/0d05-43e8-9488?query=dishsoap
+  519  cd..//
+  520  cd..\\
+  521  cd..//
+  522  Curl --header httpbin.org/anything
+  523  curl https://httpbin.org/anything
+  524  curl https://httpbin.org/ --head
+  525  curl -X POST "https://httpbin.org/anything" -d '{"Developer": "Andrew"}'
+  526  curl -X POST "https://httpbin.org/anything?EmployeeDirectory=frontend"
+  527  curl -X POST "https://httpbin.org/anything" -d '{"Developer": "Andrew"}' -H "Content-Type: application/json"
+  528  clear
+  529  docker ps
+  530  localhost:8080
+  531  ping 8.8.8.8
+  532  history
+  533  docker-compose -d
+  534  docker ps
+  535  2601:440:8400:d940:a1a8:8eda:1cd8:a521:8080
+  536  docker ps
+  537  2601:440:8400:d940:a1a8:8eda:1cd8:a521:8080
+  538  docker ps
+  539  ~
+  540  psw
+  541  ped
+  542  pwd
+  543  cd ../
+  544  docker-compose -d
+  545  docker ps
+  546  cd /Documents/files
+  547  cd Documents
+  548  cd files
+  549  cd docker_files
+  550  docker compose -d
+  551  docker-compose -d
+  552  docker-compose down
+  553  docker ps
+  554  docker-compose up -d
+  555  docker ps
+  556  localhost:8080
+  557  docker-compose down
+  558  cd ../
+  559  history
+  560  cd /Documents
+  561  history
+
+666                           insecure_crypt_storage_1.php        smgmt_admin_portal.php
+admin                         insecure_crypt_storage_2.php        smgmt_cookies_httponly.php
+aim.php                       insecure_direct_object_ref_1.php    smgmt_cookies_secure.php
+ba_forgotten.php              insecure_direct_object_ref_2.php    smgmt_sessionid_url.php
+ba_insecure_login.php         insecure_direct_object_ref_3.php    smgmt_strong_sessions.php
+ba_insecure_login_1.php       install.php                         soap
+ba_insecure_login_2.php       insuff_transport_layer_protect.php  sqli_1.php
+ba_insecure_login_3.php       js                                  sqli_2.php
+ba_logout.php                 lang_en.php                         sqli_3.php
+ba_logout_1.php               lang_fr.php                         sqli_4.php
+ba_pwd_attacks.php            lang_nl.php                         sqli_5.php
+ba_pwd_attacks_1.php          ldap_connect.php                    sqli_6.php
+ba_pwd_attacks_2.php          ldapi.php                           sqli_7.php
+ba_pwd_attacks_3.php          login.php                           sqli_8-1.php
+ba_pwd_attacks_4.php          logout.php                          sqli_8-2.php
+ba_weak_pwd.php               maili.php                           sqli_9.php
+backdoor.php                  manual_interv.php                   ssii.php
+bugs.txt                      message.txt                         ssrf.php
+bugs_owasp_top10_2010.txt     mysqli_ps.php                       stylesheets
+captcha.php                   password_change.php                 test.php
+captcha_box.php               passwords                           top_security.php
+clickjacking.php              php_cgi.php                         training.php
+commandi.php                  php_eval.php                        training_install.php
+commandi_blind.php            phpi.php                            unrestricted_file_upload.php
+config.inc                    phpinfo.php                         unvalidated_redir_fwd.php
+config.inc.php                portal.bak                          unvalidated_redir_fwd_1.php
+connect.php                   portal.php                          unvalidated_redir_fwd_2.php
+connect_i.php                 portal.zip                          update.php
+credits.php                   reset.php                           user_activation.php
+cs_validation.php             restrict_device_access.php          user_extra.php
+csrf_1.php                    restrict_folder_access.php          user_new.php
+csrf_2.php                    rlfi.php                            web.config
+csrf_3.php                    robots.txt                          ws_soap.php
+directory_traversal_1.php     secret-cors-1.php                   xmli_1.php
+directory_traversal_2.php     secret-cors-2.php                   xmli_2.php
+documents                     secret-cors-3.php                   xss_ajax_1-1.php
+fonts                         secret.php                          xss_ajax_1-2.php
+functions_external.php        secret_change.php                   xss_ajax_2-1.php
+heartbleed.php                secret_html.php                     xss_ajax_2-2.php
+hostheader_1.php              security.php                        xss_back_button.php
+hostheader_2.php              security_level_check.php            xss_custom_header.php
+hpp-1.php                     security_level_set.php              xss_eval.php
+hpp-2.php                     selections.php                      xss_get.php
+hpp-3.php                     sm_cors.php                         xss_href-1.php
+htmli_current_url.php         sm_cross_domain_policy.php          xss_href-2.php
+htmli_get.php                 sm_dos.php                          xss_href-3.php
+htmli_post.php                sm_dos_1.php                        xss_json.php
+htmli_stored.php              sm_dos_2.php                        xss_php_self.php
+http_response_splitting.php   sm_ftp.php                          xss_post.php
+http_verb_tampering.php       sm_local_priv_esc.php               xss_referer.php
+images                        sm_mitm_1.php                       xss_stored_1.php
+index.php                     sm_mitm_2.php                       xss_stored_2.php
+info.php                      sm_obu_files.php                    xss_stored_3.php
+info_install.php              sm_robots.php                       xss_user_agent.php
+information_disclosure_1.php  sm_samba.php                        xxe-1.php
+information_disclosure_2.php  sm_snmp.php                         xxe-2.php
+information_disclosure_3.php  sm_webdav.php
+information_disclosure_4.php  sm_xst.php
+root@f1db82ea752f:/var/www/html# cat message.txt
+Try to climb higher Spidy...root@f1db82ea752f:/var/www/html# 
+root@f1db82ea752f:/var/www/html# ls *.txt
+bugs.txt  bugs_owasp_top10_2010.txt  message.txt  robots.txt
+root@f1db82ea752f:/var/www/html# cat bugs.txt
+----------------------  bWAPP v1.9+  ---------------------,portal.php
+/ A1 - Injection /,portal.php
+HTML Injection - Reflected (GET),htmli_get.php
+HTML Injection - Reflected (POST),htmli_post.php
+HTML Injection - Reflected (Current URL),htmli_current_url.php
+HTML Injection - Stored (Blog),htmli_stored.php
+LDAP Injection (Search),ldapi.php
+Mail Header Injection (SMTP),maili.php
+OS Command Injection,commandi.php
+OS Command Injection - Blind,commandi_blind.php
+PHP Code Injection,phpi.php
+Server-Side Includes (SSI) Injection,ssii.php
+SQL Injection (Search/GET),sqli_1.php
+SQL Injection (Search/POST),sqli_6.php
+SQL Injection (Search/CAPTCHA),sqli_9.php
+SQL Injection (Select/GET),sqli_2.php
+SQL Injection (Login Form),sqli_3.php
+SQL Injection - Stored (Blog),sqli_7.php
+SQL Injection - Stored (XML),sqli_8-1.php
+SQL Injection - Blind (Search),sqli_4.php
+SQL Injection - Blind (Web Services/SOAP),sqli_5.php
+XML/XPath Injection (Search),xmli_2.php
+XML/XPath Injection (Login Form),xmli_1.php
+/,portal.php
+/ A2 - Broken Auth. & Session Mgmt. /,portal.php
+Broken Authentication - Forgotten Function,ba_forgotten.php
+Broken Authentication - Insecure Login Forms,ba_insecure_login.php
+Broken Authentication - Logout Management,ba_logout.php
+Broken Authentication - Password Attacks,ba_pwd_attacks.php
+Broken Authentication - Weak Passwords,ba_weak_pwd.php
+Session Management - Administrative Portals,smgmt_admin_portal.php
+Session Management - Cookies (HTTPOnly),smgmt_cookies_httponly.php
+Session Management - Cookies (Secure),smgmt_cookies_secure.php
+Session Management - Session ID in URL,smgmt_sessionid_url.php
+Session Management - Strong Sessions,smgmt_strong_sessions.php
+/,portal.php
+/ A3 - Cross-Site Scripting (XSS) /,portal.php
+Cross-Site Scripting - Reflected (GET),xss_get.php
+Cross-Site Scripting - Reflected (POST),xss_post.php
+Cross-Site Scripting - Reflected (JSON),xss_json.php
+Cross-Site Scripting - Reflected (AJAX/JSON),xss_ajax_2-1.php
+Cross-Site Scripting - Reflected (AJAX/XML),xss_ajax_1-1.php
+Cross-Site Scripting - Reflected (Back Button),xss_back_button.php
+Cross-Site Scripting - Reflected (Custom Header),xss_custom_header.php
+Cross-Site Scripting - Reflected (Eval),xss_eval.php?date=Date()
+Cross-Site Scripting - Reflected (HREF),xss_href-1.php
+Cross-Site Scripting - Reflected (PHP_SELF),xss_php_self.php
+Cross-Site Scripting - Reflected (Referer),xss_referer.php
+Cross-Site Scripting - Reflected (User-Agent),xss_user_agent.php
+Cross-Site Scripting - Stored (Blog),xss_stored_1.php
+Cross-Site Scripting - Stored (Change Secret),xss_stored_3.php
+Cross-Site Scripting - Stored (Cookies),xss_stored_2.php
+/,portal.php
+/ A4 - Insecure Direct Object References /,portal.php
+Insecure DOR (Change Secret),insecure_direct_object_ref_1.php
+Insecure DOR (Reset Secret),insecure_direct_object_ref_3.php
+Insecure DOR (Order Tickets),insecure_direct_object_ref_2.php
+/,portal.php
+/ A5 - Security Misconfiguration /,portal.php
+Arbitrary File Access (Samba),sm_samba.php
+Cross-Domain Policy File (Flash),sm_cross_domain_policy.php
+Cross-Origin Resource Sharing (AJAX),sm_cors.php
+Cross-Site Tracing (XST),sm_xst.php
+Denial-of-Service (Slow HTTP DoS),sm_dos_1.php
+Denial-of-Service (XML Bomb),sm_dos_2.php
+Insecure FTP Configuration,sm_ftp.php
+Insecure SNMP Configuration,sm_snmp.php
+Insecure WebDAV Configuration,sm_webdav.php
+Local Privilege Escalation (udev),sm_local_priv_esc.php
+Man-in-the-Middle Attack (HTTP),sm_mitm_1.php
+Man-in-the-Middle Attack (SMTP),sm_mitm_2.php
+Old/Backup & Unreferenced Files,sm_obu_files.php
+Robots File,sm_robots.php
+/,portal.php
+/ A6 - Sensitive Data Exposure /,portal.php
+Heartbleed Vulnerability,heartbleed.php
+Host Header Attack (Reset Poisoning),hostheader_2.php
+HTML5 Web Storage (Secret),insecure_crypt_storage_1.php
+Insufficient Transport Layer Protection,insuff_transport_layer_protect.php
+Text Files (Accounts),insecure_crypt_storage_2.php
+/,portal.php
+/ A7 - Missing Functional Level Access Control /,portal.php
+Directory Traversal - Directories,directory_traversal_2.php?directory=documents
+Directory Traversal - Files,directory_traversal_1.php?page=message.txt
+Host Header Attack (Cache Poisoning),hostheader_1.php
+Host Header Attack (Reset Poisoning),hostheader_2.php
+Remote & Local File Inclusion (RFI/LFI),rlfi.php
+Restrict Device Access,restrict_device_access.php
+Restrict Folder Access,restrict_folder_access.php
+Server Side Request Forgery (SSRF),ssrf.php
+XML External Entity Attacks (XXE),xxe-1.php
+/,portal.php
+/ A8 - Cross-Site Request Forgery (CSRF) /,portal.php
+Cross-Site Request Forgery (Change Password),csrf_1.php
+Cross-Site Request Forgery (Change Secret),csrf_3.php
+Cross-Site Request Forgery (Transfer Amount),csrf_2.php
+/,portal.php
+/ A9 - Using Known Vulnerable Components /,portal.php
+Heartbleed Vulnerability,heartbleed.php
+PHP CGI Remote Code Execution,php_cgi.php
+PHP Eval Function,php_eval.php
+/,portal.php
+/ A10 - Unvalidated Redirects & Forwards /,portal.php
+Unvalidated Redirects & Forwards (1),unvalidated_redir_fwd_1.php
+Unvalidated Redirects & Forwards (2),unvalidated_redir_fwd_2.php
+/,portal.php
+/ Other bugs... /,portal.php
+ClickJacking (Movie Tickets),clickjacking.php
+Client-Side Validation (Password),cs_validation.php
+HTTP Parameter Pollution,hpp-1.php
+HTTP Response Splitting,http_response_splitting.php
+HTTP Verb Tampering,http_verb_tampering.php
+Information Disclosure - Favicon,information_disclosure_4.php
+Information Disclosure - Headers,information_disclosure_2.php
+Information Disclosure - PHP version,information_disclosure_1.php
+Information Disclosure - Robots File,information_disclosure_3.php
+Unrestricted File Upload,unrestricted_file_upload.php
+---------------------------  Extras  --------------------------,portal.php
+A.I.M. - No-authentication Mode,aim.php
+Client Access Policy File,../ClientAccessPolicy.xml
+Cross-Domain Policy File,../crossdomain.xml
+Evil 666 Fuzzing Page,666
+Manual Intervention Required!,manual_interv.php
+Unprotected Admin Portal,admin/index.php
+We Steal Secrets... (html),secret_html.php
+We Steal Secrets... (plain),secret.php
+WSDL File (Web Services/SOAP),ws_soap.phproot@f1db82ea752f:/var/www/html# 
+root@f1db82ea752f:/var/www/html# cudo burpsuite
+bash: cudo: command not found
+root@f1db82ea752f:/var/www/html# exit
+exit
+sysadmin@UbuntuDesktop:~/Documents/web-vulns$ cd ../../../
+sysadmin@UbuntuDesktop:/home$ cd ../
+sysadmin@UbuntuDesktop:/$ sudo burpsuite
+[sudo] password for sysadmin: 
+
+^Csysadmin@UbuntuDesktop:/$ 
+sysadmin@UbuntuDesktop:/$ cd Documents
+bash: cd: Documents: No such file or directory
+sysadmin@UbuntuDesktop:/$ cd Documents
+bash: cd: Documents: No such file or directory
+sysadmin@UbuntuDesktop:/$ history
+    1  sudo -l
+    2  clear
+    3  sudo -i
+    4  sudo apt install linux-headers-$(uname -r) build-essential dkms
+    5  clear
+    6  ls /etc/ssh/
+    7  sudo su
+    8  exit
+    9  ls ~/.ssh/
+   10  cat ~/.ssh/authorized_keys
+   11  clear
+   12  exit
+   13  cat .ssh/authorized_keys 
+   14  exit
+   15  ifconfig
+   16  sudo su
+   17  sudo su
+   18  exit
+   19  tail /etc/passwd
+   20  ls /home
+   21  sudo su
+   22  exit
+   23  /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   24  sudo sysadmin
+   25  sudo
+   26  /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   27  sudo /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   28  cd /etc/shadow
+   29  cd etc/shadow
+   30  sudo ls -l
+   31  sudo il service -all
+   32  sudo systemctl -t services --all
+   33  sudo systemctl -t service --all
+   34  sudo systemctl stop vsftp.service
+   35  sudo systemctl stop vsftpd.service
+   36  sudo systemctl status vsftpd.service
+   37  man grep
+   38  clear
+   39  cd /Document
+   40  cd /home/sysadmin
+   41  ls
+   42  cd /Documents
+   43  ~/Documents/epscript/
+   44  cd ~/Documents/epscript/
+   45  ls -l epscript
+   46  cd ~/Documents/epscript/
+   47  ls
+   48  ls -l epscript
+   49  ls -l epscriptcd ../
+   50  cd ../
+   51  ls -l
+   52  ls -l epscript
+   53  ls -l epscript/doctotrs
+   54  ls -l epscript/doctotrs/
+   55  ls -l epscript/doctors/
+   56  ls -l epscript/patients/
+   57  ls -l epscript/treatments/
+   58  Command: tar cvvWf 20190505epscript.tar epscript/ > 20190505epscript.txt
+   59  ls
+   60  cat 20190505epscript.txt
+   61  cd /03-student/day1
+   62  cd Lucky_Duck_Investigations/
+   63  ls
+   64  cd Roulette_Loss_Investigation
+   65  ls
+   66  cd Player_Analysis
+   67  ls
+   68  grep - * data
+   69  cat Roulette_Losses
+   70  man wc
+   71  ls
+   72  cat Notes_Player_Analysis
+   73  cat Roulette_Losses
+   74  wc -l Roulette_Losses > Notes_Player_Analysis
+   75  ls Notes_Player_Analysis
+   76  wc -l Roulette_Losses
+   77  ls Roulette_Losses
+   78  cat Roulette_Losses | wc -l
+   79  cat Roulette_Losses | wc -l > Notes_Player_Analysis
+   80  cat Notes_Player_Analysis
+   81  man wc
+   82  cat Roulette_Losses | wc -m Mylie Schmidt >> Notes_Player_Analysis
+   83  awk -F ' {print $1 $2} ' Roulette_Losses
+   84  awk -F ' {print $1,$2} ' Roulette_Losses
+   85  awk  ' {print $1,$2} ' Roulette_Losses
+   86  awk  ' {print $1,$2,$3} ' Roulette_Losses
+   87  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+   88  cat Notes_Player_Analysis
+   89  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+   90  cd /03-student/
+   91  cd /03-student/day1/Lucky_Duck_Investigations/
+   92  cd Roulette_Loss_Investigation
+   93  ls
+   94  cat Roulette_Losses
+   95  cd Player_Analysis
+   96  ls
+   97  cat Roulette_Losses
+   98  cat Notes_Player_Analysis
+   99  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+  100  wc -w *Mylie* Roulette_Losses
+  101  wc -w Mylie* Roulette_Losses
+  102  cd Dealer_Analysis
+  103  cd ../
+  104  cd Dealer_Analysis
+  105  ls
+  106  cat 0310_Dealer_schedule 0312_Dealer_schedule  0315_Dealer_schedule
+  107  ls
+  108  cd ../
+  109  ls
+  110  cat Roulette_Losses
+  111  history
+  112  ls
+  113  cd Player_Analysis
+  114  ls
+  115  cat Roulette_Losses
+  116  cd Player_Analysis
+  117  cd ../
+  118  cd Dealer_Analysis
+  119  ls
+  120  cat Notes_Dealer_Analysis
+  121  cat 0310_Dealer_schedule
+  122  cat 0312_Dealer_schedule
+  123  cd
+  124  /03-student/day1/Lucky_Duck_Investigations
+  125  cd /03-student/day1/Lucky_Duck_Investigations
+  126  ls
+  127  cd Roulette_Loss_Investigation/
+  128  ls
+  129  cd Player_Analysis/
+  130  ls
+  131  cat 0310_win_loss_player_data 
+  132  cd ../
+  133  cd Dealer_Analysis/
+  134  ls
+  135  cat 0310_Dealer_schedule
+  136  cat Notes_Dealer_Analysis
+  137  ls -la
+  138  cat 0315_Dealer_schedule
+  139  cd ../
+  140  cd Player_Analysis/
+  141  ls
+  142  ls -la
+  143  cat Roulette_Losses
+  144  grep "Mylie Schmidt"
+  145  grep "Mylie Schmidt" Roulette_Losses 
+  146  grep "Mylie Schmidt" Roulette_Losses | wc -l
+  147  cd
+  148  crontab -l
+  149  crontab -e
+  150  cd /usr/share
+  151  mkdir patients
+  152  sudo mkdir patients
+  153  ls
+  154  clear
+  155  cd ~/Downloads
+  156  ls
+  157  cd /Downloads
+  158  cd ~/Downloads
+  159  ls
+  160  ls -l
+  161  cd ~/Downloadscd
+  162  cd
+  163  mkdir Security_scripts
+  164  cd Security_scripts/
+  165  nano backup.sh
+  166  cd
+  167  /etc
+  168  cd /etc
+  169  cd
+  170  cd /03-student/day1
+  171  cd Lucky_Duck_Investigations/
+  172  cd Roulette_Loss_Investigation
+  173  ls
+  174  cd Dealer_Analysis/
+  175  ls
+  176  cat 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule
+  177  awk '{print $1,$2,$7,$8}' | grep 
+  178  awk '{print $1,$2,$7,$8}' | >> Dealers_working_during_losses
+  179  sudo apt install terminator
+  180  clear
+  181  sudo apt install logrotate
+  182  terminator
+  183  sudo apt install auditd -y
+  184  systemctl status auditd
+  185  sudo systemctl enable auditd
+  186  cd /03-student/day1
+  187  cd Lucky_Duck_Investigations/
+  188  cd Roulette_Loss_Investigation
+  189  ls
+  190  cd Dealer_Analysis
+  191  ls
+  192  Dealers_working_during_losses
+  193  cat Dealers_working_during_losses
+  194  cat 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule
+  195  awk '{print $1,$2,$7,$8}' 
+  196  awk -F '{print $1,$2,$7,$8}' | >> Dealers_working_during_losses
+  197  cat Dealers_working_during_losses
+  198  awk -F '{print $1,$2,$7,$8}'0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  199  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  200  cat Dealers_working_during_losses
+  201  awk '{print $1,$2,$7,$8}' 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  202  Dealers_working_during_losses
+  203  cat Dealers_working_during_losses
+  204  awk '{print $1,$2,$7,$8}' 0310_Dealer_schedule | >> Dealers_working_during_losses
+  205  cat Dealers_working_during_losses
+  206  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule | >> Dealers_working_during_losses
+  207  cat Dealers_working_during_losses
+  208  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule 
+  209  awk -F" " '{print $1,$2,$7,$8}' 0310_Dealer_schedule 
+  210  cat 0310_Dealer_schedule 
+  211  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule 
+  212  awk -F" " '{print $1,$2,$7,$8}' 0315_Dealer_schedule 
+  213  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule | >> Dealers_working_during_losses 
+  214  cat Dealers_working_during_losses 
+  215  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule >> Dealers_working_during_losses 
+  216  cat Dea
+  217  cat Dealers_working_during_losses 
+  218  awk -F" " '{print $1,$2,$7,$8}' 0315_Dealer_schedule >> Dealers_working_during_losses 
+  219  cat Dealers_working_during_losses 
+  220  more Dealers_working_during_losses 
+  221  awk -F" " '{print $3,$4}' Dealers_working_during_losses
+  222  awk -F" " '{print $3,$4}' Dealers_working_during_losses > Notes_Dealer_Analysis
+  223  cat Notes_Dealer_Analysis 
+  224  wc -l Notes_Dealer_Analysis 
+  225  cd ../
+  226  ls
+  227  cd Player_Dealer_Correlation/
+  228  ls
+  229  nano Notes_Player_Dealer_Correlation
+  230  cd ../
+  231  ls
+  232  cd Player_Analysis
+  233  ls
+  234  cat Notes_Player_Analysis
+  235  cat 0312_win_loss_player_data  0315_win_loss_player_data
+  236  cd Player_Dealer_Correlation/
+  237  cd ../
+  238  ls
+  239  cd 
+  240  cd /03-student/day1/Lucky_Duck_Investigations/Roulette_Loss_Investigation$
+  241  cd /03-student/day1/Lucky_Duck_Investigations/
+  242  cd Roulette_Loss_Investigation
+  243  ls
+  244  cd Player_Dealer_Correlation
+  245  ls
+  246  nano Notes_Player_Dealer_Correlation
+  247  cat Notes_Player_Dealer_Correlation
+  248  cd ../
+  249  cd Dealer_Analysis/
+  250  ls
+  251  nano roulette_dealer_finder_by_time_.sh
+  252  ls
+  253  cat roulette_dealer_finder_by_time_.sh
+  254  chmod +x roulette_dealer_finder_by_time_.sh
+  255  ls
+  256  ls roulette_dealer_finder_by_time_.sh
+  257  ./roulette_dealer_finder_by_time_.sh
+  258  cd
+  259  sudo journalctrl _UID
+  260  journalctrl --list-boots
+  261  sudo apt-get instal terminator
+  262  sudo apt install terminator
+  263  clear
+  264  journalctrl --list-boots
+  265  journalctl --list-boots
+  266  sudo nano/etc/systemd/journald.conf
+  267  sudo nano/etc /systemd/journald.conf
+  268  sudo nano /etc/systemd/journald.conf
+  269  sudo apt install TarDocs.tar
+  270  cd
+  271  ls
+  272  ls -l
+  273  clear
+  274  cd /etc/shadow
+  275  sudo /etc/shadow/
+  276  cd /etc/
+  277  ls
+  278  clear
+  279  sudo cd /etc/shadow
+  280  sudo /etc/shadow
+  281  sudo /etc/
+  282  cat shadow
+  283  sudo cat shadow
+  284  clear
+  285  ls -l shadow
+  286  ls -l gshadow
+  287  ls -l group
+  288  ls -l passwd
+  289  cd
+  290  sudo adduser sam
+  291  sudo adduser amy
+  292  sudo adduser joe
+  293  sudo adduser sara
+  294  sudo adduser admin
+  295  usermod -aG sudo admin
+  296  sudo usermod -aG sudo admin
+  297  groups admin
+  298  sudo addgroup engineers
+  299  tail /etc/groups
+  300  tail /etc/group
+  301  sudo mkdir -p /home/engineers/sharedFolder
+  302  sudo chgrp -R engineers /home/engineers/sharedFolder
+  303  sudo chmod -R 2775 /home/engineers/sharedFolder
+  304  tail /etc/group
+  305  ls -l
+  306  open the /etc/group file
+  307  sudo /etc/group file
+  308  sudo /etc/group
+  309  cat /etc/group
+  310  sudo usermod -a -G engineers sam, joe, amy, sara
+  311  sudo usermod -a engineers sam, joe, amy, sara
+  312  sudo usermod -a engineers sam
+  313  sudo usermod -a engineers joe
+  314  sudo usermod -a engineers amy
+  315  sudo usermod -a engineers sara
+  316  sudo -aG engineers sam, joe, amy, sara
+  317  groups sam
+  318  sudo -aG engineers sam
+  319  groups sam
+  320  sudo usermod -aG engineers sam
+  321  sudo usermod -aG engineers joe
+  322  sudo usermod -aG engineers amy
+  323  sudo usermod -aG engineers sara
+  324  cat /etc/group
+  325  sudo apt install Lynis
+  326  sudo apt install lynis
+  327  lynis show commands
+  328  sudo lynis show commands
+  329  lynis audit
+  330  sudo lynis audit
+  331  sudo lynis audit system
+  332  sudo /var/log/lynis-report.dat
+  333  sudo cat /var/log/lynis-report.dat
+  334  sudo cat /etc/shadow
+  335  cybersecurity
+  336  sudo cat /etc/shadow
+  337  history
+  338  sudo /etc/
+  339  sudo /etc
+  340  sudo /etc/shadow
+  341  sudo /etc/
+  342  sudo cd /etc/
+  343  cd
+  344  pwd
+  345  cd /etc/
+  346  cat shadow
+  347  sudo cat shadow
+  348  sudo ls -l shadow
+  349  sudo ls -l gshadow
+  350  sudo ls -l group
+  351  sudo ls -l passwd
+  352  clear
+  353  cd
+  354  mkdir ~/research && cp -r /var/log/* /etc/passwd /etc/shadow /etc/hosts ~/research
+  355  sudo su
+  356  nano sys_info.sh
+  357  ~/research
+  358  ls
+  359  /Projects
+  360  cd /Projects
+  361  cd ~/Projects
+  362  cd
+  363  pwd
+  364  mkdir Projects
+  365  cd Projects
+  366  Tar.Docs.tar
+  367  cd
+  368  ~/Projects
+  369  cd Projects
+  370  curl https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/uofm-virt-cyber-pt-06-2021-u-lol/-/tree/master/05-Archiving-and-Logging-Data/homework#:~:text=you%20get%20started%3A-,TarDocs.tar,-Instructions
+  371  ls
+  372  curl https://drive.google.com/a/2tor.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view?usp=sharing
+  373  ls
+  374  curl https://drive.google.com/a/2tor.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view?usp=sharing --output TarDocs.tar
+  375  ls
+  376  gunzip TarDocs.tar
+  377  cat TarDocs.tar
+  378  ls
+  379  $ tar -xf TarDocs.tar -C /opt/files
+  380  ls
+  381  cls
+  382  clear
+  383  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895m
+  384  ls
+  385  delete TarDocs.tar
+  386  remove TarDocs.tar
+  387  cat TarDocs.tar
+  388  grep java
+  389  clear
+  390  ls
+  391  rm TarDocs.tar
+  392  ls
+  393  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895m
+  394  cat 21428
+  395  ls
+  396  clear
+  397  wget https://drive.google.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view
+  398  ls
+  399  cat view
+  400  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895mclear
+  401  clear
+  402  ls
+  403  cat TarDocs.tar
+  404  clear
+  405  ls 
+  406  ls TarDocs.tar
+  407  tar -xf TarDocs.tar -C /opt/files
+  408  tar -xf TarDocs.tar 
+  409  ls
+  410  cat TarDocs
+  411  cd TarDocs
+  412  ls
+  413  cd Documents
+  414  ls
+  415  ls -l ~/Projects/TarDocs/Documents/
+  416  cd
+  417  tar cvf Javaless_Doc.tar TarDocs/ --exclude=/TarDocs/Documents/Java 
+  418  ~/Projects/Documents
+  419  ~/Projects
+  420  Cd Projects
+  421  ~/Projects/
+  422  Cd Projects/
+  423  ~/Projects
+  424  clear
+  425  cd
+  426  .\
+  427  ~/Project
+  428  ~\Projects
+  429  cd ~\Projects
+  430  ls
+  431  cd Projects
+  432  tar cvf Javaless_Doc.tar TarDocs/ --exclude=/TarDocs/Documents/Java 
+  433  ls
+  434  tar tvvf Javaless_Doc.tar | grep java
+  435  tar tvvf Javaless_Doc.tar | grep Java
+  436  sudo tar czf backup_tar.gz snapshot.file /var/log
+  437  sudo tar cvvwf logs_backup.tar.gz --increamental=snapshot.file /var/log
+  438  sudo tar cvvwf logs_backup.tar.gz --increamental=snapshot.snar /var/log
+  439  sudo tar cvvwf logs_backup.tar.gz --increamental=logs_backup.snar /var/log
+  440  sudo nano /etc/hosts
+  441  systemctl status cron
+  442  crontab -l
+  443  crontab -e
+  444  sudo ls /var/spool/cron/crontabs
+  445  sudo tail /var/spool/cron/crontabs
+  446  sudo tail /var/spool/cron/crontabs/instructor
+  447  crontab -e
+  448  sudo tar --listed-incremental=snapshot.file -cvzf logs_backup.tar.gz /var/log
+  449  cd ~/
+  450  nano system.sh
+  451  sudo mkdir -p ~/backups/{freemem,diskuse,openlist,freedisk}
+  452  ls
+  453  cd backups
+  454  ls
+  455  cd ~/
+  456  nano system.sh
+  457  sudo chmod +x system.sh
+  458  cat ~/backups/freeman/free_mem.txt
+  459  sudo./system.sh
+  460  sudo ./system.sh
+  461  cd backups
+  462  ls
+  463  cd diskuse
+  464  ls
+  465  nano system.sh
+  466  cd/
+  467  cd
+  468  sudo cp system.sh /etc/cron.weekly
+  469  nano /etc/logrotate.conf
+  470  ip a
+  471  sudo usermod -a -G wireshark sysadmin
+  472  sudo apt install fping
+  473  fping
+  474  clear
+  475  fping -c 6.8.8.8 8.8.4.4
+  476  ping 192.0.43.10
+  477  ping 107.191.96.26
+  478  ping 41.19.96.26
+  479  fping -c 41.19.96.234 107.191.101.180 23.226.229.4
+  480  ping 154.226.18.4
+  481  ping 176.56.238.3
+  482  ping 176.56.238.99
+  483  fping -c 107.191.96.26 107.191.96.32
+  484  fping -g 107.191.96.26 107.191.96.32
+  485  nslookup -typeA splunk.com
+  486  nslookup -typeNS splunk.com
+  487  nslookup -typeMX splunk.com
+  488  fping 15.199.95.91/28
+  489  fping 15.199.95.91
+  490  15.199.94.91/28
+  491  15.199.94.91
+  492  fping 15.199.94.91
+  493  12.205.151.91/24
+  494  12.205.151.91
+  495  fping 12.205.151.91
+  496  echo "qMOIvwEGXzvkMvRE2bNbg==" > riddle3.enc
+  497  cat riddle3.enc
+  498  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A47C7BEB67081A64AD9A15147906E8E856 -iv 1907C5E255F7FC9A6B47B0E789847AED
+  499  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A478C7BEB67081A64AD9A15147906E8E8564
+  500  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A478C7BEB67081A64AD9A15147906E8E8564 -iv 1907C5E255F7FC9A6B47B0E789847AED
+  501  steghide extract -sf mary-lamb.jpg
+  502  cd /Downloads
+  503  cd /Download
+  504  cd downloads
+  505  cd download
+  506  ~
+  507  cd download
+  508  steghide extract -sf mary-lamb.jpg
+
+    1  sudo -l
+    2  clear
+    3  sudo -i
+    4  sudo apt install linux-headers-$(uname -r) build-essential dkms
+    5  clear
+    6  ls /etc/ssh/
+    7  sudo su
+    8  exit
+    9  ls ~/.ssh/
+   10  cat ~/.ssh/authorized_keys
+   11  clear
+   12  exit
+   13  cat .ssh/authorized_keys 
+   14  exit
+   15  ifconfig
+   16  sudo su
+   17  sudo su
+   18  exit
+   19  tail /etc/passwd
+   20  ls /home
+   21  sudo su
+   22  exit
+   23  /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   24  sudo sysadmin
+   25  sudo
+   26  /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   27  sudo /home/sysadmin/Documents/setup_scripts/sysadmin/day3_stu_setup.sh
+   28  cd /etc/shadow
+   29  cd etc/shadow
+   30  sudo ls -l
+   31  sudo il service -all
+   32  sudo systemctl -t services --all
+   33  sudo systemctl -t service --all
+   34  sudo systemctl stop vsftp.service
+   35  sudo systemctl stop vsftpd.service
+   36  sudo systemctl status vsftpd.service
+   37  man grep
+   38  clear
+   39  cd /Document
+   40  cd /home/sysadmin
+   41  ls
+   42  cd /Documents
+   43  ~/Documents/epscript/
+   44  cd ~/Documents/epscript/
+   45  ls -l epscript
+   46  cd ~/Documents/epscript/
+   47  ls
+   48  ls -l epscript
+   49  ls -l epscriptcd ../
+   50  cd ../
+   51  ls -l
+   52  ls -l epscript
+   53  ls -l epscript/doctotrs
+   54  ls -l epscript/doctotrs/
+   55  ls -l epscript/doctors/
+   56  ls -l epscript/patients/
+   57  ls -l epscript/treatments/
+   58  Command: tar cvvWf 20190505epscript.tar epscript/ > 20190505epscript.txt
+   59  ls
+   60  cat 20190505epscript.txt
+   61  cd /03-student/day1
+   62  cd Lucky_Duck_Investigations/
+   63  ls
+   64  cd Roulette_Loss_Investigation
+   65  ls
+   66  cd Player_Analysis
+   67  ls
+   68  grep - * data
+   69  cat Roulette_Losses
+   70  man wc
+   71  ls
+   72  cat Notes_Player_Analysis
+   73  cat Roulette_Losses
+   74  wc -l Roulette_Losses > Notes_Player_Analysis
+   75  ls Notes_Player_Analysis
+   76  wc -l Roulette_Losses
+   77  ls Roulette_Losses
+   78  cat Roulette_Losses | wc -l
+   79  cat Roulette_Losses | wc -l > Notes_Player_Analysis
+   80  cat Notes_Player_Analysis
+   81  man wc
+   82  cat Roulette_Losses | wc -m Mylie Schmidt >> Notes_Player_Analysis
+   83  awk -F ' {print $1 $2} ' Roulette_Losses
+   84  awk -F ' {print $1,$2} ' Roulette_Losses
+   85  awk  ' {print $1,$2} ' Roulette_Losses
+   86  awk  ' {print $1,$2,$3} ' Roulette_Losses
+   87  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+   88  cat Notes_Player_Analysis
+   89  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+   90  cd /03-student/
+   91  cd /03-student/day1/Lucky_Duck_Investigations/
+   92  cd Roulette_Loss_Investigation
+   93  ls
+   94  cat Roulette_Losses
+   95  cd Player_Analysis
+   96  ls
+   97  cat Roulette_Losses
+   98  cat Notes_Player_Analysis
+   99  awk  ' {print $1,$2,$3} ' Roulette_Losses >> Notes_Player_Analysis
+  100  wc -w *Mylie* Roulette_Losses
+  101  wc -w Mylie* Roulette_Losses
+  102  cd Dealer_Analysis
+  103  cd ../
+  104  cd Dealer_Analysis
+  105  ls
+  106  cat 0310_Dealer_schedule 0312_Dealer_schedule  0315_Dealer_schedule
+  107  ls
+  108  cd ../
+  109  ls
+  110  cat Roulette_Losses
+  111  history
+  112  ls
+  113  cd Player_Analysis
+  114  ls
+  115  cat Roulette_Losses
+  116  cd Player_Analysis
+  117  cd ../
+  118  cd Dealer_Analysis
+  119  ls
+  120  cat Notes_Dealer_Analysis
+  121  cat 0310_Dealer_schedule
+  122  cat 0312_Dealer_schedule
+  123  cd
+  124  /03-student/day1/Lucky_Duck_Investigations
+  125  cd /03-student/day1/Lucky_Duck_Investigations
+  126  ls
+  127  cd Roulette_Loss_Investigation/
+  128  ls
+  129  cd Player_Analysis/
+  130  ls
+  131  cat 0310_win_loss_player_data 
+  132  cd ../
+  133  cd Dealer_Analysis/
+  134  ls
+  135  cat 0310_Dealer_schedule
+  136  cat Notes_Dealer_Analysis
+  137  ls -la
+  138  cat 0315_Dealer_schedule
+  139  cd ../
+  140  cd Player_Analysis/
+  141  ls
+  142  ls -la
+  143  cat Roulette_Losses
+  144  grep "Mylie Schmidt"
+  145  grep "Mylie Schmidt" Roulette_Losses 
+  146  grep "Mylie Schmidt" Roulette_Losses | wc -l
+  147  cd
+  148  crontab -l
+  149  crontab -e
+  150  cd /usr/share
+  151  mkdir patients
+  152  sudo mkdir patients
+  153  ls
+  154  clear
+  155  cd ~/Downloads
+  156  ls
+  157  cd /Downloads
+  158  cd ~/Downloads
+  159  ls
+  160  ls -l
+  161  cd ~/Downloadscd
+  162  cd
+  163  mkdir Security_scripts
+  164  cd Security_scripts/
+  165  nano backup.sh
+  166  cd
+  167  /etc
+  168  cd /etc
+  169  cd
+  170  cd /03-student/day1
+  171  cd Lucky_Duck_Investigations/
+  172  cd Roulette_Loss_Investigation
+  173  ls
+  174  cd Dealer_Analysis/
+  175  ls
+  176  cat 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule
+  177  awk '{print $1,$2,$7,$8}' | grep 
+  178  awk '{print $1,$2,$7,$8}' | >> Dealers_working_during_losses
+  179  sudo apt install terminator
+  180  clear
+  181  sudo apt install logrotate
+  182  terminator
+  183  sudo apt install auditd -y
+  184  systemctl status auditd
+  185  sudo systemctl enable auditd
+  186  cd /03-student/day1
+  187  cd Lucky_Duck_Investigations/
+  188  cd Roulette_Loss_Investigation
+  189  ls
+  190  cd Dealer_Analysis
+  191  ls
+  192  Dealers_working_during_losses
+  193  cat Dealers_working_during_losses
+  194  cat 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule
+  195  awk '{print $1,$2,$7,$8}' 
+  196  awk -F '{print $1,$2,$7,$8}' | >> Dealers_working_during_losses
+  197  cat Dealers_working_during_losses
+  198  awk -F '{print $1,$2,$7,$8}'0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  199  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  200  cat Dealers_working_during_losses
+  201  awk '{print $1,$2,$7,$8}' 0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule | >> Dealers_working_during_losses
+  202  Dealers_working_during_losses
+  203  cat Dealers_working_during_losses
+  204  awk '{print $1,$2,$7,$8}' 0310_Dealer_schedule | >> Dealers_working_during_losses
+  205  cat Dealers_working_during_losses
+  206  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule | >> Dealers_working_during_losses
+  207  cat Dealers_working_during_losses
+  208  awk -F '{print $1,$2,$7,$8}' 0310_Dealer_schedule 
+  209  awk -F" " '{print $1,$2,$7,$8}' 0310_Dealer_schedule 
+  210  cat 0310_Dealer_schedule 
+  211  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule 
+  212  awk -F" " '{print $1,$2,$7,$8}' 0315_Dealer_schedule 
+  213  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule | >> Dealers_working_during_losses 
+  214  cat Dealers_working_during_losses 
+  215  awk -F" " '{print $1,$2,$7,$8}' 0312_Dealer_schedule >> Dealers_working_during_losses 
+  216  cat Dea
+  217  cat Dealers_working_during_losses 
+  218  awk -F" " '{print $1,$2,$7,$8}' 0315_Dealer_schedule >> Dealers_working_during_losses 
+  219  cat Dealers_working_during_losses 
+  220  more Dealers_working_during_losses 
+  221  awk -F" " '{print $3,$4}' Dealers_working_during_losses
+  222  awk -F" " '{print $3,$4}' Dealers_working_during_losses > Notes_Dealer_Analysis
+  223  cat Notes_Dealer_Analysis 
+  224  wc -l Notes_Dealer_Analysis 
+  225  cd ../
+  226  ls
+  227  cd Player_Dealer_Correlation/
+  228  ls
+  229  nano Notes_Player_Dealer_Correlation
+  230  cd ../
+  231  ls
+  232  cd Player_Analysis
+  233  ls
+  234  cat Notes_Player_Analysis
+  235  cat 0312_win_loss_player_data  0315_win_loss_player_data
+  236  cd Player_Dealer_Correlation/
+  237  cd ../
+  238  ls
+  239  cd 
+  240  cd /03-student/day1/Lucky_Duck_Investigations/Roulette_Loss_Investigation$
+  241  cd /03-student/day1/Lucky_Duck_Investigations/
+  242  cd Roulette_Loss_Investigation
+  243  ls
+  244  cd Player_Dealer_Correlation
+  245  ls
+  246  nano Notes_Player_Dealer_Correlation
+  247  cat Notes_Player_Dealer_Correlation
+  248  cd ../
+  249  cd Dealer_Analysis/
+  250  ls
+  251  nano roulette_dealer_finder_by_time_.sh
+  252  ls
+  253  cat roulette_dealer_finder_by_time_.sh
+  254  chmod +x roulette_dealer_finder_by_time_.sh
+  255  ls
+  256  ls roulette_dealer_finder_by_time_.sh
+  257  ./roulette_dealer_finder_by_time_.sh
+  258  cd
+  259  sudo journalctrl _UID
+  260  journalctrl --list-boots
+  261  sudo apt-get instal terminator
+  262  sudo apt install terminator
+  263  clear
+  264  journalctrl --list-boots
+  265  journalctl --list-boots
+  266  sudo nano/etc/systemd/journald.conf
+  267  sudo nano/etc /systemd/journald.conf
+  268  sudo nano /etc/systemd/journald.conf
+  269  sudo apt install TarDocs.tar
+  270  cd
+  271  ls
+  272  ls -l
+  273  clear
+  274  cd /etc/shadow
+  275  sudo /etc/shadow/
+  276  cd /etc/
+  277  ls
+  278  clear
+  279  sudo cd /etc/shadow
+  280  sudo /etc/shadow
+  281  sudo /etc/
+  282  cat shadow
+  283  sudo cat shadow
+  284  clear
+  285  ls -l shadow
+  286  ls -l gshadow
+  287  ls -l group
+  288  ls -l passwd
+  289  cd
+  290  sudo adduser sam
+  291  sudo adduser amy
+  292  sudo adduser joe
+  293  sudo adduser sara
+  294  sudo adduser admin
+  295  usermod -aG sudo admin
+  296  sudo usermod -aG sudo admin
+  297  groups admin
+  298  sudo addgroup engineers
+  299  tail /etc/groups
+  300  tail /etc/group
+  301  sudo mkdir -p /home/engineers/sharedFolder
+  302  sudo chgrp -R engineers /home/engineers/sharedFolder
+  303  sudo chmod -R 2775 /home/engineers/sharedFolder
+  304  tail /etc/group
+  305  ls -l
+  306  open the /etc/group file
+  307  sudo /etc/group file
+  308  sudo /etc/group
+  309  cat /etc/group
+  310  sudo usermod -a -G engineers sam, joe, amy, sara
+  311  sudo usermod -a engineers sam, joe, amy, sara
+  312  sudo usermod -a engineers sam
+  313  sudo usermod -a engineers joe
+  314  sudo usermod -a engineers amy
+  315  sudo usermod -a engineers sara
+  316  sudo -aG engineers sam, joe, amy, sara
+  317  groups sam
+  318  sudo -aG engineers sam
+  319  groups sam
+  320  sudo usermod -aG engineers sam
+  321  sudo usermod -aG engineers joe
+  322  sudo usermod -aG engineers amy
+  323  sudo usermod -aG engineers sara
+  324  cat /etc/group
+  325  sudo apt install Lynis
+  326  sudo apt install lynis
+  327  lynis show commands
+  328  sudo lynis show commands
+  329  lynis audit
+  330  sudo lynis audit
+  331  sudo lynis audit system
+  332  sudo /var/log/lynis-report.dat
+  333  sudo cat /var/log/lynis-report.dat
+  334  sudo cat /etc/shadow
+  335  cybersecurity
+  336  sudo cat /etc/shadow
+  337  history
+  338  sudo /etc/
+  339  sudo /etc
+  340  sudo /etc/shadow
+  341  sudo /etc/
+  342  sudo cd /etc/
+  343  cd
+  344  pwd
+  345  cd /etc/
+  346  cat shadow
+  347  sudo cat shadow
+  348  sudo ls -l shadow
+  349  sudo ls -l gshadow
+  350  sudo ls -l group
+  351  sudo ls -l passwd
+  352  clear
+  353  cd
+  354  mkdir ~/research && cp -r /var/log/* /etc/passwd /etc/shadow /etc/hosts ~/research
+  355  sudo su
+  356  nano sys_info.sh
+  357  ~/research
+  358  ls
+  359  /Projects
+  360  cd /Projects
+  361  cd ~/Projects
+  362  cd
+  363  pwd
+  364  mkdir Projects
+  365  cd Projects
+  366  Tar.Docs.tar
+  367  cd
+  368  ~/Projects
+  369  cd Projects
+  370  curl https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/uofm-virt-cyber-pt-06-2021-u-lol/-/tree/master/05-Archiving-and-Logging-Data/homework#:~:text=you%20get%20started%3A-,TarDocs.tar,-Instructions
+  371  ls
+  372  curl https://drive.google.com/a/2tor.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view?usp=sharing
+  373  ls
+  374  curl https://drive.google.com/a/2tor.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view?usp=sharing --output TarDocs.tar
+  375  ls
+  376  gunzip TarDocs.tar
+  377  cat TarDocs.tar
+  378  ls
+  379  $ tar -xf TarDocs.tar -C /opt/files
+  380  ls
+  381  cls
+  382  clear
+  383  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895m
+  384  ls
+  385  delete TarDocs.tar
+  386  remove TarDocs.tar
+  387  cat TarDocs.tar
+  388  grep java
+  389  clear
+  390  ls
+  391  rm TarDocs.tar
+  392  ls
+  393  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895m
+  394  cat 21428
+  395  ls
+  396  clear
+  397  wget https://drive.google.com/file/d/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u/view
+  398  ls
+  399  cat view
+  400  curl https://doc-14-60-docs.googleusercontent.com/docs/securesc/qpd90vk6vngukqlrau4799kgckdd4dfc/me9ote49fqq15nhbnt2j3puokc3m039m/1628078100000/16143306805800754125/18355212390443045325/1fRjFS1vOdS7yfKJgpJxR02_UxeT_qI_u?e=download&authuser=0&nonce=bhapj0qmmhnhm&user=18355212390443045325&hash=s3u11t33k4kabld61hdk8oh8e37r895mclear
+  401  clear
+  402  ls
+  403  cat TarDocs.tar
+  404  clear
+  405  ls 
+  406  ls TarDocs.tar
+  407  tar -xf TarDocs.tar -C /opt/files
+  408  tar -xf TarDocs.tar 
+  409  ls
+  410  cat TarDocs
+  411  cd TarDocs
+  412  ls
+  413  cd Documents
+  414  ls
+  415  ls -l ~/Projects/TarDocs/Documents/
+  416  cd
+  417  tar cvf Javaless_Doc.tar TarDocs/ --exclude=/TarDocs/Documents/Java 
+  418  ~/Projects/Documents
+  419  ~/Projects
+  420  Cd Projects
+  421  ~/Projects/
+  422  Cd Projects/
+  423  ~/Projects
+  424  clear
+  425  cd
+  426  .\
+  427  ~/Project
+  428  ~\Projects
+  429  cd ~\Projects
+  430  ls
+  431  cd Projects
+  432  tar cvf Javaless_Doc.tar TarDocs/ --exclude=/TarDocs/Documents/Java 
+  433  ls
+  434  tar tvvf Javaless_Doc.tar | grep java
+  435  tar tvvf Javaless_Doc.tar | grep Java
+  436  sudo tar czf backup_tar.gz snapshot.file /var/log
+  437  sudo tar cvvwf logs_backup.tar.gz --increamental=snapshot.file /var/log
+  438  sudo tar cvvwf logs_backup.tar.gz --increamental=snapshot.snar /var/log
+  439  sudo tar cvvwf logs_backup.tar.gz --increamental=logs_backup.snar /var/log
+  440  sudo nano /etc/hosts
+  441  systemctl status cron
+  442  crontab -l
+  443  crontab -e
+  444  sudo ls /var/spool/cron/crontabs
+  445  sudo tail /var/spool/cron/crontabs
+  446  sudo tail /var/spool/cron/crontabs/instructor
+  447  crontab -e
+  448  sudo tar --listed-incremental=snapshot.file -cvzf logs_backup.tar.gz /var/log
+  449  cd ~/
+  450  nano system.sh
+  451  sudo mkdir -p ~/backups/{freemem,diskuse,openlist,freedisk}
+  452  ls
+  453  cd backups
+  454  ls
+  455  cd ~/
+  456  nano system.sh
+  457  sudo chmod +x system.sh
+  458  cat ~/backups/freeman/free_mem.txt
+  459  sudo./system.sh
+  460  sudo ./system.sh
+  461  cd backups
+  462  ls
+  463  cd diskuse
+  464  ls
+  465  nano system.sh
+  466  cd/
+  467  cd
+  468  sudo cp system.sh /etc/cron.weekly
+  469  nano /etc/logrotate.conf
+  470  ip a
+  471  sudo usermod -a -G wireshark sysadmin
+  472  sudo apt install fping
+  473  fping
+  474  clear
+  475  fping -c 6.8.8.8 8.8.4.4
+  476  ping 192.0.43.10
+  477  ping 107.191.96.26
+  478  ping 41.19.96.26
+  479  fping -c 41.19.96.234 107.191.101.180 23.226.229.4
+  480  ping 154.226.18.4
+  481  ping 176.56.238.3
+  482  ping 176.56.238.99
+  483  fping -c 107.191.96.26 107.191.96.32
+  484  fping -g 107.191.96.26 107.191.96.32
+  485  nslookup -typeA splunk.com
+  486  nslookup -typeNS splunk.com
+  487  nslookup -typeMX splunk.com
+  488  fping 15.199.95.91/28
+  489  fping 15.199.95.91
+  490  15.199.94.91/28
+  491  15.199.94.91
+  492  fping 15.199.94.91
+  493  12.205.151.91/24
+  494  12.205.151.91
+  495  fping 12.205.151.91
+  496  echo "qMOIvwEGXzvkMvRE2bNbg==" > riddle3.enc
+  497  cat riddle3.enc
+  498  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A47C7BEB67081A64AD9A15147906E8E856 -iv 1907C5E255F7FC9A6B47B0E789847AED
+  499  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A478C7BEB67081A64AD9A15147906E8E8564
+  500  openssl enc -pbkdf2 -nosalt -aes-256-cbc -in riddle3.enc -d -base64 -K 5284A3B154D99487D9D8D8508461A478C7BEB67081A64AD9A15147906E8E8564 -iv 1907C5E255F7FC9A6B47B0E789847AED
+  501  steghide extract -sf mary-lamb.jpg
+  502  cd /Downloads
+  503  cd /Download
+  504  cd downloads
+  505  cd download
+  506  ~
+  507  cd download
+  508  steghide extract -sf mary-lamb.jpg
+  509  cd Documents
+  510  ls
+  511  cd docker_files
+  512  ls
+  513  docker-compose -d
+  514  curl https://posthere.io/0d05-43e8-9488
+  515  curl https: --head //posthere.io/0d05-43e8-9488
+  516  curl --head http://posthere.io
+  517  curl -X POST http://posthere.io?query=dishsoap
+  518  curl https:curl -X POST //posthere.io/0d05-43e8-9488?query=dishsoap
+  519  cd..//
+  520  cd..\\
+  521  cd..//
+  522  Curl --header httpbin.org/anything
+  523  curl https://httpbin.org/anything
+  524  curl https://httpbin.org/ --head
+  525  curl -X POST "https://httpbin.org/anything" -d '{"Developer": "Andrew"}'
+  526  curl -X POST "https://httpbin.org/anything?EmployeeDirectory=frontend"
+  527  curl -X POST "https://httpbin.org/anything" -d '{"Developer": "Andrew"}' -H "Content-Type: application/json"
+  528  clear
+  529  docker ps
+  530  localhost:8080
+  531  ping 8.8.8.8
+  532  history
+  533  docker-compose -d
+  534  docker ps
+  535  2601:440:8400:d940:a1a8:8eda:1cd8:a521:8080
+  536  docker ps
+  537  2601:440:8400:d940:a1a8:8eda:1cd8:a521:8080
+  538  docker ps
+  539  ~
+  540  psw
+  541  ped
+  542  pwd
+  543  cd ../
+  544  docker-compose -d
+  545  docker ps
+  546  cd /Documents/files
+  547  cd Documents
+  548  cd files
+  549  cd docker_files
+  550  docker compose -d
+  551  docker-compose -d
+  552  docker-compose down
+  553  docker ps
+  554  docker-compose up -d
+  555  docker ps
+  556  localhost:8080
+  557  docker-compose down
+  558  cd ../
+  559  history
+  560  cd /Documents
+  561  history
+  562  cd Documents
+  563  ls
+  564  cd web-vulns
+  565  docker ps
+  566  docker-compose up -d
+  567  docker ps
+  568  docker exec -it bwapp bash
+  569  cd ../../../
+  570  cd ../
+  571  sudo burpsuite
+  572  cd Documents
+  573  history
+  574  cd Documents
+  575  cd ~
+  576  cd Documents
+  577  ls
+  578  cd web-vulns
+  579  docker exec -it bwapp bash
+  580  docker-compose up -d
+  581  cd ..//
+  582  history
+sysadmin@UbuntuDesktop:~$ 
